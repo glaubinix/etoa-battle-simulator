@@ -1,4 +1,4 @@
-import React, {Component, PropTypes} from 'react';
+import React, {Component} from 'react';
 
 class ResultContainer extends Component {
     render() {
@@ -7,7 +7,5 @@ class ResultContainer extends Component {
         );
     }
 }
-
-ResultContainer.PropTypes = {};
 
 export default ResultContainer;

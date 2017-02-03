@@ -5,10 +5,10 @@ import DataList from '../basic/DataList';
 
 const Overview = (props) => {
     return <div>
-            <Player role="Attacker">
+            <Player battleRole="Attacker">
                 <Selector header="Ships" autocompletion="ships" />
             </Player>
-            <Player role="Defender">
+            <Player battleRole="Defender">
                 <Selector header="Ships/Defense" autocompletion="all" />
             </Player>
             <DataList list="ships" items={props.ships} />

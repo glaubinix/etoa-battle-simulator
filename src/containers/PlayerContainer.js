@@ -1,4 +1,4 @@
-import React, {Component, PropTypes} from 'react';
+import React, {Component} from 'react';
 import Overview from '../components/players/Overview';
 
 class PlayerContainer extends Component {
@@ -15,7 +15,5 @@ class PlayerContainer extends Component {
         );
     }
 }
-
-PlayerContainer.PropTypes = {};
 
 export default PlayerContainer;

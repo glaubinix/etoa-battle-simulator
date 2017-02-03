@@ -1,8 +1,13 @@
 language: node_js
 node_js: 6
 
+script:
+  - npm test
+  - npm run lint:css
+  - npm run build
+
 deploy:
   provider: surge
   project: ./build/
-  domain: example.surge.sh
+  domain: abandoned-brass.surge.sh
   skip_cleanup: true

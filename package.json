@@ -17,7 +17,7 @@
     "lint:css": "stylelint \"./src/components/**/*.js\"",
     "start": "react-scripts start",
     "build": "react-scripts build",
-    "test": "react-scripts test --env=jsdom && npm run lint:css",
+    "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject"
   }
 }
