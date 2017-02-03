@@ -1,0 +1,14 @@
+[
+  {
+    "name": "Test Ship",
+    "defaultInput": 1
+  },
+  {
+    "name": "My Ship",
+    "defaultInput": 1
+  },
+  {
+    "name": "More Ship",
+    "defaultInput": 1
+  }
+]
